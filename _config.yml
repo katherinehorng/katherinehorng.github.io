@@ -1,14 +1,17 @@
 title: Katherine Horng
 description: A portfolio of projects I have worked on
-url: "" # your site URL when live, leave empty for local dev
-baseurl: ""
+url: ""         # your site URL when live, leave empty for local dev
+baseurl: ""     # usually leave empty for GitHub Pages
 
+# Theme
 theme: minimal-mistakes-jekyll
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Top navigation
+# Top navigation menu
 navigation:
   - title: Home
     url: /
@@ -17,11 +20,38 @@ navigation:
   - title: Projects
     url: /projects/
 
-# Optional defaults for page layout
+# Optional: hide sidebar site-wide (so only top navigation shows)
+sidebar:
+  hide: true
+
+# Defaults for pages
 defaults:
   - scope:
-      path: ""
+      path: ""       # all pages
       type: "pages"
     values:
       layout: "single"
       author_profile: true
+
+# Optional: home page settings
+defaults:
+  - scope:
+      path: ""       # home page only
+      type: "home"
+    values:
+      layout: "home"
+
+# Optional: include files in build
+include:
+  - _pages       # if you have a _pages folder for pages
+
+# Optional: exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
