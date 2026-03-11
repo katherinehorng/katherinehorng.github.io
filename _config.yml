@@ -4,12 +4,13 @@ url: "https://katherinehorng.github.io/"         # your site URL when live, leav
 baseurl: ""     # usually leave empty for GitHub Pages
 
 # Theme
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Top navigation menu
 navigation:
