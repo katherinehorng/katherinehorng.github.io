@@ -16,6 +16,7 @@ layout: single
 - Axle Pullout Tester
 - Paranoia (2025 New Build); for Buggy at CMU
 - 3D Printed Probe Station
+- Flat Folding Chair
 - Automatic Mixer for the Visually Impaired Using Image-Based ML
 - VEX Robotics
 

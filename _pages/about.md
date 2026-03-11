@@ -5,4 +5,4 @@ layout: single
 ---
 # About Me
 
-I work on robotics, controls, and hardware engineering.
+Hi! I’m Katherine Horng, a recent graduate of Carnegie Mellon University in Mechanical Engineering with a focus in Robotics and Control.
