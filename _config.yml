@@ -1,9 +1,11 @@
 title: Katherine Horng
 description: A portfolio of projects I have worked on
-
-# Use the remote theme
 remote_theme: pages-themes/minimal@v0.2.0
-
-# Plugins
 plugins:
   - jekyll-remote-theme
+
+# Navigation menu
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
