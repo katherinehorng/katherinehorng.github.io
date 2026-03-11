@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+
+  <nav>
+    <a href="{{ "/" | relative_url }}">Home</a> |
+    <a href="{{ "/about" | relative_url }}">About</a> |
+    <a href="{{ "/projects" | relative_url }}">Projects</a>
+  </nav>
+
+  <hr>
+
+  {{ content }}
+
+</body>
+</html>
