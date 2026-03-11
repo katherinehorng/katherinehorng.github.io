@@ -4,8 +4,6 @@ permalink: /projects/
 layout: single
 ---
 
-# My Projects
-
 - Soft Shape Memory Alloy (SMA) Actuated Manta Ray Fin
 - Crazyflie Control Barrier Functions for Obstacle Avoidance
 - Active Suspension Backpack
